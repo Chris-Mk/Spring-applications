@@ -1,0 +1,5 @@
+meisterTask\entities\Task.class
+meisterTask\bindingModel\TaskBindingModel.class
+meisterTask\MeistertaskApplication.class
+meisterTask\repositories\TaskRepository.class
+meisterTask\controllers\TaskController.class
