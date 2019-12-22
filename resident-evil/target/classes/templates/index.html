@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:insert="fragments/head">
+</th:block>
+<body>
+<div class="container-fluid">
+    <header th:replace="fragments/navbar">
+    </header>
+    <main class="mt-3">
+        <div class="jumbotron mt-3 bg-rs">
+            <h1 class="text-white">Project: Resident Evil</h1>
+            <hr class="bg-white hr-2"/>
+            <p th:class="text-white">Resident Evil is a system that registers virus spreads across the world.</p>
+        </div>
+    </main>
+    <footer th:insert="fragments/footer">
+    </footer>
+</div>
+</body>
+</html>
